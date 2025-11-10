@@ -1,0 +1,30 @@
+{
+  "name": "js-hw-08-v2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://nosia-80.github.io/js-hw-08-v2",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel src/*.html --public-url /js-hw-08-v2/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosia-80/js-hw-08-v2.git"
+  },
+  "keywords": [],
+  "author": "Anatoliy Nosenko <anatoliynosenko80@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosia-80/js-hw-08-v2/issues"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.4",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.10.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
